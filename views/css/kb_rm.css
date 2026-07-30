@@ -1,0 +1,160 @@
+#velsof_rm_container .navbar.main {
+    background: transparent;
+	    border: 0;
+}
+#velsof_rm_container .widget.velsof-widget-left {
+    background: transparent;
+    border: 0;
+}
+#menuVel .slim-scroll > ul, #menuVel > ul{
+	border:0;
+	background: #fff;
+}
+#menuVel, #menuVel > div > div:not(#notif) > ul a, #menuVel > div > ul a, #menuVel .profile, #menuVel li.heading {
+    box-shadow: none;
+	    font-weight: normal;
+    color: #000;
+}
+#content_knowband{
+	margin: 0 0 0 212px;
+}
+#menuVel .slim-scroll > ul > li.active > a, #menuVel > ul > li.active > a {
+    background: #00aff0;
+    color: #fff!important;
+}
+#menuVel .slim-scroll > ul > li.active > a i:before {
+    color: #fff;
+}
+#content_knowband .box {
+    padding: 0;
+}
+#content_knowband .heading-mosaic {
+    background: #f3f5f7;
+    font-size: 16px !important;
+}
+#content_knowband .heading-mosaic {
+    background: #fff;
+    font-size: 16px !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #e5e5e5;
+}
+#content_knowband {
+    /**
+    * Start Changes to fix the CSS issue with longer text on left nav bar
+    * Increasing margin from 212 to 250px
+    * NASep2023 admin_css
+    * @date 19-09-2023
+    * @modifier Nikhil Aggarwal
+    */
+    margin: 0 0 0 250px;
+    /* Changes end by Nikhil */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#menuVel {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+td.name.vertical_top_align .control-label {
+    background: #edf7fb;
+    font-size: 13px !important;
+    text-decoration: none;
+    color: #3586AE;
+    background-color: #edf7fb;
+    border: none;
+    border-bottom: solid 1px #D8EDF7;
+    padding: 0 5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#velsof_rm_container p.help {
+    color: #9c9ea0;
+}
+#velsof_rm_container .widget > .widget-head {
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+}	
+#velsof_rm_container .widget-head .heading {
+    border: 0 !important;
+	height:auto !important;
+}
+#velsof_rm_container .block .block {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#velsof_rm_container .widget > .widget-head {
+    box-shadow: none;
+    background: #fff;
+    box-shadow: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1px 10px;
+    height: auto;
+	    display: inline-block;
+    width: 100%;
+}
+table.pure-table {
+    border: 0;
+}
+.pure-table thead tr:first-child {
+    border-bottom: 1px solid #00aff0;
+}
+table.pure-table thead th {
+    background: transparent;
+}
+table.pure-table {
+    border: 0;
+}
+#refresh_pending, #refresh_active {
+    float: right;
+    margin-top: -41px;
+    margin-right: 10px;
+}
+table.pure-table thead th {
+    background: transparent;
+    border: 0;
+}
+.pure-table thead tr:first-child {
+    border-bottom: 1px solid #00aff0;
+}
+table.pure-table tbody tr:nth-child(odd) td {
+    background: #FCFDFE;
+}
+table.pure-table tbody tr td {
+    border-left: 0;
+}
+.pure-table-odd td {
+    background-color: #f5f5f5;
+}
+.pure-table th{font-weight:normal}
+.policy-responsive {
+    overflow: auto;
+}
+.policy-responsive table th {
+    background: #edf7fb;
+    vertical-align: middle;
+}
+#velsof_rm_container .block .widget {
+    margin: 10px;
+}
+#modal_reason .add_reason_new.rm_modal_input, #modal_reason #status_new1 {
+    margin-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.has-switch span.switch-primary:focus, .has-switch span.switch-left:focus, .has-switch span.switch-primary:active, .has-switch span.switch-left:active, .has-switch span.switch-primary.active, .has-switch span.switch-left.active, .has-switch span.switch-primary.disabled, .has-switch span.switch-left.disabled, .has-switch span.switch-primary[disabled], .has-switch span.switch-left[disabled], .has-switch span.switch-primary, .has-switch span.switch-left{
+	    background-color: #2eacce;
+}
+.has-switch span.switch-danger:hover, .has-switch span.switch-danger:focus, .has-switch span.switch-danger:active, .has-switch span.switch-danger.active, .has-switch span.switch-danger.disabled, .has-switch span.switch-danger[disabled], .has-switch span.switch-danger{
+	background-color: #e08f95 !important;
+	background-image: none!important;
+}
+#tab_custom_fields th {
+    border: 1px solid #dddddd !important;
+    text-align: center !important;
+}
+#tab_custom_fields table.pure-table tbody tr td {
+    border: 1px solid #dddddd
+}

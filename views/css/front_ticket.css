@@ -1,0 +1,190 @@
+#kbmpss-container{
+    
+}
+
+#kbmpss-container p{
+    color: #333;
+}
+
+#kbmpss-container .block_content{
+    padding-left:20px;
+}
+
+.kbmpss-form-wrapper{
+    margin: 20px 0;
+}
+
+.kbmpss-form-group{
+    display: table;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.kbmpss-form-label{
+    display: inline-table;
+    width: 20%;
+}
+
+.kbmpss-form-label em{
+    color: #ea2e49;
+    font-size: 16px;
+    padding: 0 2px;
+}
+
+.kbmpss-form-field{
+    display: inline-table;
+    width: 80%;
+}
+
+.kbmpss-form-field input, .kbmpss-form-field select, .kbmpss-form-field textarea{
+    width: 100%;
+    padding: 7px;
+    transition: all 0.2s;
+    font-size: 13px;
+    box-shadow: inset 0 0px 3px rgba(0,0,0,0.08);
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+.kbmpss-form-field select{
+    background: #f4f4f4;
+}
+
+.kbmpss-form-group.error input, .kbmpss-form-group.error select, .kbmpss-form-group.error textarea{
+    background-color: #FF9D9D;
+    border: 1px solid #ff0000;
+}
+
+.kbmpss-form-group span.err-message{
+    color: #ff0000;
+    font-size: 10px;
+    display: block;
+}
+
+.kbmpss-form-field .small_field{
+    width:300px;
+}
+
+.kbmpss-form-footer{
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid rgba(102, 102, 102, 0.29);
+}
+
+#kbmpss-container button, .kbmpss-table-list button{
+    float: right;
+}
+
+#kbmpss-container ul {
+    list-style:none;
+}
+
+#kbmpss-container ul li{
+    display:inline-block;
+}
+
+#kbmpss-container ul li .dsk-btn{
+    background: #43b754;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#43b754), to(#42ac52));
+    background-image: -webkit-linear-gradient(top, #43b754, 0%, #42ac52, 100%);
+    background-image: -moz-linear-gradient(top, #43b754 0%, #42ac52 100%);
+    background-image: linear-gradient(to bottom, #43b754 0%, #42ac52 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF43B754', endColorstr='#FF42AC52', GradientType=0);
+    border-color: #399a49 #247f32 #1a6d27 #399a49;
+    float: right;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right:10px;
+}
+
+#kbmpss-container ul li .dsk-btn.dsk-btn-back{
+    background: #575757;
+    border-color: #303030 #303030 #666666 #444444;
+}
+
+#kbmpss-container ul li:last-child{
+    margin-right:0;
+}
+
+#kbmpss-container ul li .dsk-btn:hover{
+    background: #3aa04c;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3aa04c), to(#3aa04a));
+    background-image: -webkit-linear-gradient(top, #3aa04c, 0%, #3aa04a, 100%);
+    background-image: -moz-linear-gradient(top, #3aa04c 0%, #3aa04a 100%);
+    background-image: linear-gradient(to bottom, #3aa04c 0%, #3aa04a 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3AA04C', endColorstr='#FF3AA04A', GradientType=0);
+    border-color: #196f28 #399a49 #399a49 #258033;
+}
+
+#kbmpss-container ul li .dsk-btn.dsk-btn-back:hover{
+    background: #575757;
+    border-color: #303030 #303030 #666666 #444444;
+}
+
+.kbmpss-table-list{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+    border-spacing: 0;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+.kbmpss-table-list, .kbmpss-table-list thead td, .kbmpss-table-list td{
+    color: rgb(244, 244, 244);
+}
+
+.kbmpss-table-list td {
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    border-right-style: solid;
+    border-top-style: solid;
+    vertical-align: middle;
+}
+
+.kbmpss-table-list tbody td{
+    color: rgb(51, 55, 69);
+}
+
+td.grey-bg.left {
+    background: rgb(244, 244, 244) !important;
+}
+
+.kbmpss-table-list tbody td a{
+    color: rgb(215,73,53);
+}
+
+.kbmpss-customer-reply-box{
+    border-left: 3px solid rgb(215, 73, 53);
+}
+
+.kbmpss-support-reply-box{
+    border-left: 3px solid #18B924
+}
+
+.kbmpss-table-list button{
+    float:none;
+}
+
+@media (max-width: 640px){
+    .kbmpss-form-group{
+        display:block;
+    }
+    
+    .kbmpss-form-label, .kbmpss-form-field{
+        display:block;
+        width:100%
+    }
+    
+    .kbmpss-form-field .small_field{
+        width:100%;
+    }
+}
