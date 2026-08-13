@@ -119,14 +119,14 @@
                                 <p class="rm_o_section_heading">{l s='Return Total Details' mod='returnmanager'}</p>
                                 <div class="rm_row">
                                     <div class="rm_o_total_left">{l s='Product Price-Total' mod='returnmanager'}:</div>
-                                    <div class="rm_o_total_right">{Tools::displayPrice($returned_product_total)}</div>
+                                    <div class="rm_o_total_right">{$returned_product_total|escape:'html':'UTF-8'}</div>
                                 </div>
                                 {if $enable_shipping_charges_menu == 1}
                                     <div class="rm_row">
                                         <div class="rm_o_total_left">{l s='Shipping Charge' mod='returnmanager'}:</div>
                                         <div class="rm_o_total_right">
                                             {if $shipping_charge > 0}
-                                                {Tools::displayPrice($shipping_charge)}
+                                                {$shipping_charge_display|escape:'html':'UTF-8'}
                                             {else}
                                                 {l s='Free' mod='returnmanager'}
                                             {/if}</div>
@@ -134,7 +134,7 @@
                                 {/if}
                                 <div class="rm_row">
                                     <div class="rm_o_total_left">{l s='Total Return Amount' mod='returnmanager'}:</div>
-                                    <div class="rm_o_total_right">{Tools::displayPrice($order_total)}</div>
+                                    <div class="rm_o_total_right">{$order_total|escape:'html':'UTF-8'}</div>
                                 </div>    
                             </div>
                         </div>*}
